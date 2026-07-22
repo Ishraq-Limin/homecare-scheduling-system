@@ -51,4 +51,16 @@ Two further techniques reduce the load that must be scaled in the first place. C
 
 4. Ethical Considerations
 Beyond legal compliance, the system raises ethical questions that CareLink Dublin must address deliberately. The most significant concerns GPS check-in: while its purpose is to verify that visits take place, it is also a form of employee monitoring. To be ethical as well as lawful, location capture should be proportionate and transparent — recorded only at check-in and check-out rather than tracking carers continuously, clearly explained to staff, and limited to working purposes. Carers should also be consulted before rollout.
-A second concern is consent: the clients are vulnerable elderly people, some of whom may not fully understand what a digital care record involves, so consent processes may need to involve family members or advocates. Finally, data minimisation should apply throughout: the system should collect only what is genuinely needed to deliver care.
+A second concern is consent: the clients are vulnerable elderly people, some of whom may not fully understand what a digital care record involves, so consent
+
+ 5. Conclusion
+CareLink Dublin's paper-based processes create real risks: missed visits to vulnerable clients, unverifiable care, and inaccurate invoicing. This report has set out how a system addressing them should be built. An Agile methodology suits a small agency whose requirements will evolve, delivering the roster module early and adding further features in later iterations. Because the system handles special-category health data, security must be designed in from the start — encryption, role-based access control, multi-factor authentication, and audit logging, organised within an ISO 27001 framework that embeds GDPR obligations. Reliability measures — redundancy, tested backups, and an offline mode — protect continuity of care, while a horizontally scalable architecture allows the system to grow from 15 carers to hundreds nationwide. Built this way, the system is not merely digitised paperwork but a foundation for safer care and sustainable growth.
+References
+European Union (2016) Regulation (EU) 2016/679 of the European Parliament and of the Council (General Data Protection Regulation). Official Journal of the European Union, L 119.
+International Organization for Standardization (2022) ISO/IEC 27001:2022 — Information security, cybersecurity and privacy protection: Information security management systems — Requirements. Geneva: ISO.
+Sommerville, I. (2016) Software Engineering. 10th edn. Harlow: Pearson.
+Data Protection Commission (n.d.) Breach Notification. Available at: https://www.dataprotection.ie (Accessed: 20 July 2026).
+
+
+
+ processes may need to involve family members or advocates. Finally, data minimisation should apply throughout: the system should collect only what is genuinely needed to deliver care.
